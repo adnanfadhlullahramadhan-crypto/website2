@@ -1,0 +1,110 @@
+<style>
+  /* Container */
+  .contact-section {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #f8f4ff, #e6f7ff);
+    font-family: "Poppins", sans-serif;
+  }
+
+  .contact-card {
+    max-width: 800px;
+    margin: auto;
+    background: #ffffffcc;
+    backdrop-filter: blur(10px);
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  }
+
+  .contact-card h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #4b4b4b;
+  }
+
+  .contact-card p {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #666;
+  }
+
+  /* Form */
+  .contact-form label {
+    font-weight: 500;
+    color: #444;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 12px;
+    background: #f1f1f1;
+    transition: 0.3s;
+  }
+
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    outline: none;
+    background: #e8e8e8;
+    transform: scale(1.01);
+  }
+
+  .contact-form button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    background: #8f78ff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .contact-form button:hover {
+    background: #7a63e6;
+  }
+
+  /* Contact info */
+  .info {
+    margin-top: 25px;
+    text-align: center;
+    color: #555;
+    font-size: 15px;
+  }
+
+  .info p {
+    margin: 6px 0;
+  }
+</style>
+
+<section class="contact-section" id="contact">
+  <div class="contact-card">
+    <h2>Contact Us</h2>
+    <p>Hubungi kami jika ingin berkolaborasi atau memiliki pertanyaan.</p>
+
+    <form class="contact-form">
+      <label for="name">Nama</label>
+      <input type="text" id="name" required placeholder="Masukkan nama">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" required placeholder="Masukkan email">
+
+      <label for="message">Pesan</label>
+      <textarea id="message" rows="4" required placeholder="Tulis pesan kamu..."></textarea>
+
+      <button type="submit">Kirim Pesan</button>
+    </form>
+
+    <div class="info">
+      <p>📍 Jl. Badak 2. 18/19, Bekasi</p>
+      <p>📞 0812-3456-7890</p>
+      <p>📧 hello@projek.com</p>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,58 @@
+<style>
+    .home {
+    height: 100vh;
+    background: linear-gradient(135deg, #fdf2ff, #e9f3ff);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .home h1 {
+    font-size: 48px;
+    color: #4a4a4a;
+    margin-bottom: 10px;
+    animation: fadeIn 1.2s ease;
+  }
+
+  .home p {
+    font-size: 18px;
+    color: #666;
+    max-width: 600px;
+    animation: fadeIn 1.6s ease;
+  }
+
+  .home button {
+    margin-top: 25px;
+    padding: 12px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    background: #8f78ff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    animation: fadeIn 2s ease;
+  }
+
+  .home button:hover {
+    background: #7a63e6;
+    transform: scale(1.05);
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+</style>
+<section class="home" id="home">
+  <h1>Selamat Datang di Website Kami</h1>
+  <p>
+    Tempat di mana desain bertemu kreativitas. Kami menciptakan tampilan modern, bersih,
+    dan aesthetic agar setiap proyek terasa lebih hidup dan bermakna.
+  </p>
+  <button>Jelajahi Lebih Lanjut</button>
+</section>
